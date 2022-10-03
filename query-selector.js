@@ -1,0 +1,5 @@
+el = document.querySelector('li.hot');
+el.className = 'cool';
+
+els = document.querySelectorAll('li.hot');
+els[1].className = 'cool';
